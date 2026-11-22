@@ -1,0 +1,36 @@
+<project name="Olist Sales DW" id="546b8be7-adf2-45fa-bd21-6b6479f6fb9f" toolversion="5.3.1.0">
+  <datawarehouse>
+    <datamarts>
+      <datamart name="Datamart" id="fe7ac806-1bfb-416b-82ba-d0e1c9fa9dbd">
+        <factschemas>
+          <factschema id="005550bf-adbf-4297-942d-c81f24b9fc72" />
+          <factschema id="a44aebf7-2620-48a1-a0de-e449114b2a16" />
+        </factschemas>
+      </datamart>
+    </datamarts>
+  </datawarehouse>
+  <conformedHierarchies>
+    <conformedHierarchy id="c75f5004-9a5e-44b9-a925-c55d5f8d8cfc" />
+    <conformedHierarchy id="b05b00cb-3349-4687-99ba-eaa196608668" />
+  </conformedHierarchies>
+  <areas />
+  <macroareas />
+  <customProperties>
+    <attributes />
+    <measures />
+    <facts />
+  </customProperties>
+  <linkedProperties />
+  <projectOptions>
+    <logicModelingProfile name="starschema" isEditable="false" />
+    <logicModelingNamePrefixes DimensionTableNamePrefix="DT_" FactTableNamePrefix="FT_" BridgeTableNamePrefix="BT_" NavigationTableNamePrefix="NAV_" JunkTableNamePrefix="JT_" PrimaryKeyNamePrefix="PK_" ForeignKeyNamePrefix="FK_" TableIdNamePrefix="ID_" ConformedDimensionViewNamePrefix="DTV_" TemporalScenarioRollbackFromFieldName="FROM" TemporalScenarioRollbackToFieldName="TO" TemporalScenarioRollbackMasterFieldName="MASTER" />
+    <logicalModelingDefaultTypes>
+      <attributes name="VARCHAR" length="255" scale="-1" precision="-1" />
+      <measures name="DECIMAL" length="-1" scale="3" precision="18" />
+      <surrogates name="INT" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackFromType name="DATE" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackToType name="DATE" length="-1" scale="-1" precision="-1" />
+      <temporalScenarioRollbackMasterType name="INT" length="-1" scale="-1" precision="-1" />
+    </logicalModelingDefaultTypes>
+  </projectOptions>
+</project>
